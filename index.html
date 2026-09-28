@@ -1,0 +1,369 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>STOW Privacy Policy</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for STOW, a browser extension for quickly saving content from the web."
+  />
+
+  <style>
+    :root {
+      --background: #ffffff;
+      --foreground: #111111;
+      --muted: #666666;
+      --border: #e8e8e8;
+      --card: #f7f7f7;
+      --accent: #111111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 80px 0 50px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+      margin-bottom: 45px;
+    }
+
+    .brand-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #111;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(38px, 7vw, 58px);
+      line-height: 1.05;
+      letter-spacing: -0.045em;
+    }
+
+    .updated {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    main {
+      padding: 55px 0 90px;
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 23px;
+      line-height: 1.25;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      margin: 0 0 15px;
+      color: #333;
+    }
+
+    ul {
+      margin: 14px 0;
+      padding-left: 22px;
+      color: #333;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .highlight {
+      padding: 22px 24px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      margin: 25px 0;
+    }
+
+    .highlight strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #111;
+    }
+
+    a {
+      color: #111;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      padding: 30px 0 50px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 50px 0 35px;
+      }
+
+      main {
+        padding: 40px 0 60px;
+      }
+
+      .container {
+        width: min(100% - 28px, 760px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+
+      
+
+      <h1>Privacy Policy</h1>
+
+      <div class="updated">
+        Last updated: September 29, 2026
+      </div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container">
+
+      <section>
+        <div class="highlight">
+          <strong>In short</strong>
+          STOW is designed to keep your saved content on your device.
+          We do not sell your data, use it for advertising, or send your
+          stash to our servers.
+        </div>
+      </section>
+
+
+      <section>
+        <h2>1. What is STOW?</h2>
+
+        <p>
+          STOW is a browser extension that lets you quickly save content
+          you find while browsing the web so you can access it later.
+        </p>
+
+        <p>
+          You can use STOW to save selected text, links, notes, prompts,
+          images, and other content supported by the extension.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>2. Information STOW stores</h2>
+
+        <p>
+          When you choose to save something using STOW, the extension may
+          store information associated with that item, including:
+        </p>
+
+        <ul>
+          <li>The content you explicitly choose to save.</li>
+          <li>The URL of the page where the content was saved.</li>
+          <li>The title of the webpage.</li>
+          <li>The date and time the item was saved.</li>
+          <li>Your item's completion or done status.</li>
+        </ul>
+
+        <p>
+          STOW only saves webpage content when you explicitly perform an
+          action to save it.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>3. Where your data is stored</h2>
+
+        <p>
+          STOW uses Chrome's local storage system
+          (<code>chrome.storage.local</code>) to store your stash.
+        </p>
+
+        <p>
+          Your saved content remains stored locally in your browser and
+          is not automatically uploaded to a STOW server.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>4. Data sharing</h2>
+
+        <p>
+          STOW does not sell, rent, or share your saved content with
+          advertisers, data brokers, or other third parties.
+        </p>
+
+        <p>
+          STOW does not use your saved content for advertising or
+          personalized advertising.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>5. Analytics and tracking</h2>
+
+        <p>
+          STOW does not use third-party analytics or advertising trackers
+          to monitor your browsing activity.
+        </p>
+
+        <p>
+          STOW does not maintain a server-side profile of your browsing
+          activity.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>6. Permissions</h2>
+
+        <p>
+          STOW requests browser permissions only when they are necessary
+          to provide its functionality.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Storage:</strong>
+            Used to save your stash locally in your browser.
+          </li>
+
+          <li>
+            <strong>Clipboard:</strong>
+            Used when you explicitly choose to copy saved content.
+          </li>
+
+          <li>
+            <strong>Context menus:</strong>
+            Used to provide an option to stash selected content
+            through the browser's right-click menu.
+          </li>
+
+          <li>
+            <strong>Webpage access:</strong>
+            Used to detect and save content that you explicitly choose
+            to stash.
+          </li>
+
+          <li>
+            <strong>Tabs:</strong>
+            Used to associate saved items with their original webpage
+            URL and title.
+          </li>
+        </ul>
+      </section>
+
+
+      <section>
+        <h2>7. Children's privacy</h2>
+
+        <p>
+          STOW is not specifically directed toward children under the age
+          of 13, and we do not knowingly collect personal information
+          from children.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>8. Changes to this Privacy Policy</h2>
+
+        <p>
+          We may update this Privacy Policy from time to time to reflect
+          changes to STOW or its privacy practices.
+        </p>
+
+        <p>
+          When changes are made, the updated policy will be published at
+          this URL with a revised "Last updated" date.
+        </p>
+      </section>
+
+
+      <section>
+        <h2>9. Contact</h2>
+
+        <p>
+          If you have questions about this Privacy Policy or STOW's
+          privacy practices, you can contact the developer through the
+          contact information provided on the STOW Chrome Web Store
+          listing.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="container">
+      © 2026 STOW. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
+```
